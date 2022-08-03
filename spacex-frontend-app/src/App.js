@@ -1,10 +1,10 @@
-import './App.css';
-import RocketListComponent from './components/RocketListComponent';
+import "./App.css";
+import RocketList from "../src/components/rocketList/rocketList.component.jsx";
 
 function App() {
   return (
-    <div >
-      <RocketListComponent/>
+    <div>
+      <RocketList />
     </div>
   );
 }
